@@ -108,7 +108,7 @@ def main():
         summary_writer = SummaryWriter(test_args.plot_save)
 
     Load = args.load
-    Save = args.save
+    Save = test_args.save
 
     motion_datas = create_dataset_from_args(args)
     #Build network model

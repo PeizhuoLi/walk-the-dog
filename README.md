@@ -29,7 +29,7 @@ Alternatively, you may install the following packages (and their dependencies) m
 
 ## Quick Start
 
-We provide pre-trained models for the Human-Loco dataset and the Dog dataset. To run the demo, please download the pre-trained models and processed dataset [here](https://drive.google.com/file/d/13jreiLSl94Ff-ncsaK5ccT0C5hBVznm1/view?usp=sharing) and extract it under `./Datasets` directory from the root folder of the repository.
+We provide pre-trained models for the Human-Loco dataset and the Dog dataset. To run the demo, please download the pre-processed dataset [here](https://drive.google.com/file/d/13jreiLSl94Ff-ncsaK5ccT0C5hBVznm1/view?usp=sharing) and extract it under `./Datasets` directory from the root folder of the repository. In addition, please also download the pre-trained model [here](https://drive.google.com/file/d/1iljTy1ugvHiTNddLzr3Fnk9_B-hDPHZ_/view?usp=share_link) and put it directly under the root folder of the repository.
 
 To run the demo, please execute the following command:
 
