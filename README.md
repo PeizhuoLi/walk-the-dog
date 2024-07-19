@@ -55,7 +55,17 @@ After training, you can generate the files needed for the Unity side with the `t
 
 ## Motion Matching
 
-Coming soon.
+We provide an offline implementation of our frequency-scaled motion matching in the Python module. To reproduce the results in the paper, please execute the following command after running the `test_vq.py` script:
+
+```bash
+python offline_motion_matching.py --preset_name=human2dog --target_id=3
+```
+
+The target_id parameter specifies the index of the motion sequence in the dataset, which is the same as in the Motion Editor in our Unity module.
+
+The motion matching result will be saved into `./results/motion_matching/replay_sequence.npz`.
+
+To visualize the motion matching result, please refer to the Unity repository [here](https://github.com/PeizhuoLi/walk-the-dog-unity?tab=readme-ov-file#motion-matching).
 
 
 ## Acknowledgments
